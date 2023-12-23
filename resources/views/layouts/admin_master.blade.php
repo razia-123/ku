@@ -141,6 +141,21 @@
                 <div data-i18n="Analytics">Dashboard</div>
               </a>
             </li>
+                <li class="menu-item">
+                <a href="javascript:void(0);" class="menu-link menu-toggle">
+                  <i class="menu-icon tf-icons bx bx-dock-top"></i>
+                  <div data-i18n="Account Settings">About</div>
+                </a>
+                <ul class="menu-sub">
+                  <li class="menu-item">
+                    <a href="{{ route('admin.about.index') }}" class="menu-link">
+                      <div data-i18n="Account">About Section </div>
+                    </a>
+                  </li>
+
+
+                </ul>
+              </li>
             {{-- <li class="menu-item">
                 <a href="javascript:void(0);" class="menu-link menu-toggle">
                   <i class="menu-icon tf-icons bx bx-dock-top"></i>
